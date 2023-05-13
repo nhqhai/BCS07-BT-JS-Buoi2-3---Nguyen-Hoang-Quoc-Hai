@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Bài Tập JavaScript Buổi 2_3</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <header>
+    <!-- place navbar here -->
+  </header>
+  <main>
+    <!-- place content here -->
+    <div class="container">
+      <h1>Tính tiền lương</h1>
+      <div class="mb-3">
+        <label for="" class="form-label">Nhập số ngày làm culi</label>
+        <input type="text" class="form-control" name="" id="soNgayLam" placeholder="nhập số ngày">
+      </div>
+      <button class="btn btn-success" onclick="tinhTienLuong()">Tính coi lương nhiêu nè</button>
+      <div class="bg-success text-white mt-3 py-4 px-4" id="hienThiKetQua"></div>
+    </div>
+<!-- ----------------------------------- -->
+<hr class="mb-3">
+    <div class="container">
+      <h1> Tính trung bình cộng 5 số thực</h1>
+      <div class="mb-3">
+        <label for="" class="form-label">Nhập số thực thứ 1</label>
+        <input type="text" class="form-control" name="" id="soThu1" placeholder="">
+      </div>
+      <div class="mb-3">
+        <label for="" class="form-label">Nhập số thực thứ 2</label>
+        <input type="text" class="form-control" name="" id="soThu2" placeholder="">
+      </div>
+      <div class="mb-3">
+        <label for="" class="form-label">Nhập số thực thứ 3</label>
+        <input type="text" class="form-control" name="" id="soThu3" placeholder="">
+      </div>
+      <div class="mb-3">
+        <label for="" class="form-label">Nhập số thực thứ 4</label>
+        <input type="text" class="form-control" name="" id="soThu4" placeholder="">
+      </div>
+      <div class="mb-3">
+        <label for="" class="form-label">Nhập số thực thứ 5</label>
+        <input type="text" class="form-control" name="" id="soThu5" placeholder="">
+      </div>
+      <button class="btn btn-danger" onclick="tinhSoTrungBinhCong()">Tính trung bình cộng nè</button>
+      <div class="bg-danger text-white mt-3 py-4 px-4" id="hienThiSoTrungBinhCong"></div>
+    </div>
+<!-- ----------------------------------- -->
+<hr class="mb-3">
+<div class="container">
+  <h1> Quy đổi tỷ giá từ USD sang VNĐ</h1>
+  <div class="mb-3">
+    <label for="" class="form-label">Nhập số tiền USD thể hiện sự giàu có của bạn</label>
+    <input type="text" class="form-control" name="" id="soTienUSD" placeholder="">
+  </div>
+  <button class="btn btn-info" onclick="quyDoiTien()">Quy đổi tỷ giá từ USD sang VNĐ</button>
+  <div class="bg-info text-white mt-3 py-4 px-4" id="hienThiQuyDoiUSD"></div>
+</div>
+
+<!-- ----------------------------------- -->
+<hr class="mb-3">
+<div class="container">
+  <h1>Tính chu vi diện tích  hình Chữ Nhật</h1>
+  <div class="mb-3">
+    <label for="" class="form-label">Nhập chiều dài hình Chữ Nhật</label>
+    <input type="text" class="form-control" name="" id="chieuDai" placeholder="Chiều Dài Nè">
+    <label for="" class="form-label">Nhập chiều rộng hình Chữ Nhật</label>
+    <input type="text" class="form-control" name="" id="chieuRong" placeholder="Chiều Rộng Nè">
+    </div>
+    <button class="btn btn-dark" onclick="tinhChuViDienTichHinhChuNhat()">Tính diện tích chu vi hình Chữ Nhật</button>
+    <div class="bg-dark text-white mt-3 py-4 px-4" id="hienThiChuViDienTichHinhChuNhat"></div>
+</div>
+
+<!-- ----------------------------------- -->
+<hr class="mb-3">
+<div class="container">
+  <h1>Tính tổng 2 kí số</h1>
+  <div class="mb-3">
+    <label for="" class="form-label">Nhập số vào đi nào</label>
+    <input type="text" class="form-control" name="" id="soN" placeholder="">
+  </div>
+  <button class="btn btn-warning" onclick="tinhTong2KiSo()"> Tính tổng 2 kí số nè</button>
+  <div class="bg-warning text-white mt-3 py-4 px-4" id="hienThiTong2KiSo"></div>
+</div>
+
+  </main>
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+  <script src="./BT_Buoi_2_3.js"></script>
+</body>
+
+</html>
